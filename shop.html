@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <title>Cửa hàng</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+<header>
+  <h1>Cửa hàng</h1>
+  <nav>
+    <a href="index.html">Trang chủ</a>
+    <a href="cart.html">Giỏ hàng</a>
+  </nav>
+</header>
+<div class="container">
+  <h2>Sản phẩm</h2>
+  <div class="card">
+    <h3>Thức ăn mèo</h3>
+    <p>200,000đ</p>
+    <button onclick="addToCart('Thức ăn mèo', 200000)">Thêm vào giỏ</button>
+  </div>
+  <div class="card">
+    <h3>Đồ chơi mèo</h3>
+    <p>150,000đ</p>
+    <button onclick="addToCart('Đồ chơi mèo', 150000)">Thêm vào giỏ</button>
+  </div>
+  <div class="card">
+    <h3>Giường mèo</h3>
+    <p>400,000đ</p>
+    <button onclick="addToCart('Giường mèo', 400000)">Thêm vào giỏ</button>
+  </div>
+</div>
+<footer>© 2025 CatCorner</footer>
+</body>
+</html>
