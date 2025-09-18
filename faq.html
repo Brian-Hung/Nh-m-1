@@ -1,22 +1,67 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="utf-8">
-  <title>FAQ</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CatCorner - FAQ</title>
+  <link rel="stylesheet" href="faq.css">
 </head>
 <body>
-<header>
-  <h1>Câu hỏi thường gặp</h1>
-  <nav>
-    <a href="index.html">Trang chủ</a>
-  </nav>
-</header>
-<div class="container">
-  <h2>FAQ</h2>
-  <p><strong>Q:</strong> Mèo có cần tắm không?<br>
-     <strong>A:</strong> Thỉnh thoảng thôi, mèo tự làm sạch khá tốt.</p>
-</div>
-<footer>© 2025 CatCorner</footer>
+  <!-- Header -->
+  <header>
+    <img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" alt="Logo" class="logo">
+    <nav>
+      <ul>
+        <li><a href="index.html">Trang chủ</a></li>
+        <li><a href="about.html">Giới thiệu</a></li>
+        <li><a href="shop.html">Cửa hàng</a></li>
+        <li><a href="cart.html">Giỏ hàng</a></li>
+        <li><a href="faq.html" class="active">FAQ</a></li>
+        <li><a href="login.html">Đăng nhập</a></li>
+        <li><a href="register.html">Đăng ký</a></li>
+        <li><a href="contact.html">Liên hệ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- FAQ Section -->
+  <section class="faq">
+    <h1>Câu hỏi thường gặp</h1>
+
+    <div class="faq-item">
+      <button class="faq-question">Làm sao để mua hàng?</button>
+      <div class="faq-answer">
+        <p>Bạn chỉ cần chọn sản phẩm, thêm vào giỏ hàng và tiến hành thanh toán.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Có hỗ trợ giao hàng toàn quốc không?</button>
+      <div class="faq-answer">
+        <p>Có, chúng tôi giao hàng trên toàn quốc với nhiều phương thức vận chuyển.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Chính sách đổi trả như thế nào?</button>
+      <div class="faq-answer">
+        <p>Bạn có thể đổi trả sản phẩm trong vòng 7 ngày nếu có lỗi từ nhà sản xuất.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Có cần tạo tài khoản để mua không?</button>
+      <div class="faq-answer">
+        <p>Bạn có thể mua ngay mà không cần tài khoản, nhưng đăng ký sẽ giúp quản lý đơn hàng dễ hơn.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 CatCorner. All rights reserved.</p>
+  </footer>
+
+  <script src="faq.js"></script>
 </body>
 </html>

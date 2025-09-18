@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #9c27b0;
+  padding: 10px 20px;
+}
+
+.logo {
+  width: 60px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav ul li a.active {
+  text-decoration: underline;
+}
+
+/* Contact */
+.contact {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white url("https://images.unsplash.com/photo-1561948955-570b270e7c36?auto=format&fit=crop&w=1600&q=80") no-repeat center;
+  background-size: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  color: #333;
+}
+
+.contact h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.contact-container {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.contact-form {
+  flex: 1;
+  background: rgba(255,255,255,0.9);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.contact-form label {
+  display: block;
+  margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  margin-top: 15px;
+  padding: 10px;
+  background: #9c27b0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #7b1fa2;
+}
+
+.map {
+  flex: 1;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}

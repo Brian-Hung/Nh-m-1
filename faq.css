@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #f4f4f9;
+  background: #f8f9fa;
 }
 
 header {
@@ -32,44 +32,47 @@ nav ul li a.active {
   text-decoration: underline;
 }
 
-.sitemap {
+/* FAQ */
+.faq {
   max-width: 800px;
   margin: 50px auto;
   background: white;
-  padding: 30px;
+  padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  text-align: center;
 }
 
-.sitemap h1 {
+.faq h1 {
+  text-align: center;
   margin-bottom: 20px;
 }
 
-.sitemap ul {
-  list-style: none;
-  padding: 0;
-  margin-bottom: 30px;
+.faq-item {
+  margin-bottom: 15px;
 }
 
-.sitemap ul li {
-  margin: 10px 0;
+.faq-question {
+  width: 100%;
+  padding: 15px;
+  background: #9c27b0;
+  color: white;
+  border: none;
+  text-align: left;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
-.sitemap ul li a {
-  color: #9c27b0;
-  text-decoration: none;
-  font-weight: bold;
+.faq-question:hover {
+  background: #7b1fa2;
 }
 
-.sitemap ul li a:hover {
-  text-decoration: underline;
-}
-
-.sitemap img {
-  max-width: 100%;
-  border-radius: 10px;
-  margin-top: 20px;
+.faq-answer {
+  display: none;
+  padding: 10px;
+  background: #f1f1f1;
+  border-radius: 5px;
+  margin-top: 5px;
 }
 
 footer {
@@ -77,9 +80,5 @@ footer {
   color: white;
   text-align: center;
   padding: 15px;
-  margin-top: 40px;
-}
-footer a {
-  color: #ff5722;
-  text-decoration: none;
+  margin-top: 50px;
 }

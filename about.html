@@ -1,21 +1,71 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="utf-8">
-  <title>Thông tin cá nhân</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CatCorner - Giới thiệu</title>
+  <link rel="stylesheet" href="about.css">
 </head>
 <body>
-<header>
-  <h1>Thông tin cá nhân</h1>
-  <nav>
-    <a href="index.html">Trang chủ</a>
-  </nav>
-</header>
-<div class="container">
-  <h2>Giới thiệu</h2>
-  <p>Trang này hiển thị thông tin cá nhân của bạn.</p>
-</div>
-<footer>© 2025 CatCorner</footer>
+  <!-- Header -->
+  <header>
+    <img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" alt="Logo" class="logo">
+    <nav>
+      <ul>
+        <li><a href="index.html">Trang chủ</a></li>
+        <li><a href="about.html" class="active">Giới thiệu</a></li>
+        <li><a href="shop.html">Cửa hàng</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="login.html">Đăng nhập</a></li>
+        <li><a href="register.html">Đăng ký</a></li>
+        <li><a href="contact.html">Liên hệ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Giới thiệu -->
+  <section class="about-section">
+    <h1>Về CatCorner</h1>
+    <p>
+      CatCorner được thành lập với niềm đam mê dành cho mèo. 
+      Chúng tôi cung cấp những sản phẩm chất lượng nhất cho thú cưng, 
+      từ thức ăn, đồ chơi đến phụ kiện tiện ích.
+    </p>
+  </section>
+
+  <!-- Slider ảnh -->
+  <section class="slider">
+    <h2>Hình ảnh cửa hàng & mèo cưng</h2>
+    <div class="slides">
+      <img src="https://source.unsplash.com/1000x500/?cat,store" class="active" alt="Cat Shop">
+      <img src="https://source.unsplash.com/1000x500/?cat,toy" alt="Cat Toy">
+      <img src="https://source.unsplash.com/1000x500/?cat,food" alt="Cat Food">
+      <img src="https://source.unsplash.com/1000x500/?cat,pet" alt="Cat Pet">
+    </div>
+  </section>
+
+  <!-- Đánh giá -->
+  <section class="reviews">
+    <h2>Khách hàng nói gì?</h2>
+    <div class="review">
+      <p>"Mèo nhà mình rất thích thức ăn ở đây, cực kỳ tươi ngon."</p>
+      <span>- Thảo Vy</span>
+    </div>
+    <div class="review">
+      <p>"Dịch vụ chăm sóc khách hàng rất chu đáo, mình rất hài lòng."</p>
+      <span>- Quang Huy</span>
+    </div>
+    <div class="review">
+      <p>"Giao hàng nhanh chóng, sản phẩm đóng gói cẩn thận."</p>
+      <span>- Bảo Ngọc</span>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 CatCorner. All rights reserved.</p>
+  </footer>
+
+  <script src="about.js"></script>
 </body>
 </html>

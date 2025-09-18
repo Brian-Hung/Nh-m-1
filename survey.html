@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khảo sát nhanh</title>
+  <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+  <div class="survey-container">
+    <h1>Chào mừng đến với CatCorner 🐾</h1>
+    <form id="surveyForm">
+      <label>1. Tên bạn là gì?</label>
+      <input type="text" name="name" required>
+
+      <label>2. Bạn là:</label>
+      <select name="gender">
+        <option value="nam">Nam</option>
+        <option value="nu">Nữ</option>
+        <option value="khac">Khác</option>
+      </select>
+
+      <label>3. Bạn ở nước nào?</label>
+      <input type="text" name="country" required>
+
+      <label>4. Bạn có nuôi mèo không?</label>
+      <select id="hasCat" name="hasCat" onchange="toggleCatCount()">
+        <option value="no">Không</option>
+        <option value="yes">Có</option>
+      </select>
+
+      <div id="catCountWrapper" style="display:none;">
+        <label>Nếu có, bạn nuôi mấy con mèo?</label>
+        <input type="number" name="catCount" min="1" max="20">
+      </div>
+
+      <button type="submit">Bắt đầu mua sắm</button>
+    </form>
+  </div>
+
+  <script src="survey.js"></script>
+</body>
+</html>

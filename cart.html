@@ -1,24 +1,57 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="utf-8">
-  <title>Giỏ hàng</title>
-  <link rel="stylesheet" href="styles.css">
-  <script src="script.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CatCorner - Giỏ hàng</title>
+  <link rel="stylesheet" href="cart.css">
 </head>
 <body>
-<header>
-  <h1>Giỏ hàng</h1>
-  <nav>
-    <a href="index.html">Trang chủ</a>
-    <a href="shop.html">Cửa hàng</a>
-  </nav>
-</header>
-<div class="container">
-  <h2>Sản phẩm trong giỏ</h2>
-  <ul id="cart-items"></ul>
-  <p><strong>Tổng cộng:</strong> <span id="cart-total">0đ</span></p>
-</div>
-<footer>© 2025 CatCorner</footer>
+  <!-- Header -->
+  <header>
+    <img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" alt="Logo" class="logo">
+    <nav>
+      <ul>
+        <li><a href="index.html">Trang chủ</a></li>
+        <li><a href="about.html">Giới thiệu</a></li>
+        <li><a href="shop.html">Cửa hàng</a></li>
+        <li><a href="cart.html" class="active">Giỏ hàng</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="login.html">Đăng nhập</a></li>
+        <li><a href="register.html">Đăng ký</a></li>
+        <li><a href="contact.html">Liên hệ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Giỏ hàng -->
+  <section class="cart">
+    <h1>Giỏ hàng của bạn</h1>
+    <table id="cart-table">
+      <thead>
+        <tr>
+          <th>Sản phẩm</th>
+          <th>Số lượng</th>
+          <th>Giá</th>
+          <th>Tổng</th>
+          <th>Hành động</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- JS sẽ thêm dữ liệu -->
+      </tbody>
+    </table>
+    <div class="cart-total">
+      <h3>Tổng cộng: <span id="total">0</span> VND</h3>
+      <button onclick="checkout()">Thanh toán</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 CatCorner. All rights reserved.</p>
+  </footer>
+
+  <script src="cart.js"></script>
 </body>
 </html>

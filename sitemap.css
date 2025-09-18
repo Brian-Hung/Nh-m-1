@@ -1,0 +1,5 @@
+/* sitemap.css */
+.sitemap-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:0.5rem}
+.sitemap-list a{display:block;padding:0.6rem;background:#fff;border-radius:8px;border:1px solid var(--border);text-decoration:none;color:#222}
+.sitemap-list a:hover{background:var(--accent);color:#fff} 
+

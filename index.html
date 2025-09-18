@@ -1,24 +1,74 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CatCorner - Trang chủ</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
-<header>
-  <h1>CatCorner</h1>
-  <nav>
-    <a href="index.html">Trang chủ</a>
-    <a href="shop.html">Cửa hàng</a>
-    <a href="cart.html">Giỏ hàng</a>
-    <a href="login.html">Đăng nhập</a>
-  </nav>
-</header>
-<div class="container">
-  <h2>Chào mừng!</h2>
-  <p>Website chuyên đồ cho mèo: thức ăn, đồ chơi, phụ kiện.</p>
-</div>
-<footer>© 2025 CatCorner</footer>
+  <!-- Header -->
+  <header>
+    <img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" alt="Logo" class="logo">
+    <nav>
+      <ul>
+        <li><a href="index.html">Trang chủ</a></li>
+        <li><a href="about.html">Giới thiệu</a></li>
+        <li><a href="shop.html">Cửa hàng</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="login.html">Đăng nhập</a></li>
+        <li><a href="register.html">Đăng ký</a></li>
+        <li><a href="contact.html">Liên hệ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Banner -->
+  <section class="banner">
+    <h1>Chào mừng đến với CatCorner 🐾</h1>
+    <p>Ngôi nhà dành cho người yêu mèo</p>
+    <button onclick="location.href='shop.html'">Mua ngay</button>
+  </section>
+
+  <!-- Giới thiệu -->
+  <section class="about">
+    <h2>Về CatCorner</h2>
+    <p>
+      Chúng tôi mang đến cho bạn những sản phẩm tốt nhất cho mèo cưng: 
+      thức ăn, đồ chơi, phụ kiện và nhiều hơn thế nữa.
+    </p>
+    <div class="slider">
+      <img src="https://source.unsplash.com/800x400/?cat,1" alt="cat1" class="slide active">
+      <img src="https://source.unsplash.com/800x400/?cat,2" alt="cat2" class="slide">
+      <img src="https://source.unsplash.com/800x400/?cat,3" alt="cat3" class="slide">
+    </div>
+  </section>
+
+  <!-- Đánh giá -->
+  <section class="reviews">
+    <h2>Khách hàng nói gì?</h2>
+    <div class="review-item">
+      <p>"Shop có nhiều đồ cho mèo rất dễ thương, giá cả hợp lý!"</p>
+      <span>- Minh Anh</span>
+    </div>
+    <div class="review-item">
+      <p>"Mèo nhà mình rất thích đồ chơi ở đây, giao hàng nhanh chóng."</p>
+      <span>- Hoàng Nam</span>
+    </div>
+    <div class="review-item">
+      <p>"Dịch vụ hỗ trợ khách hàng tuyệt vời, sẽ quay lại ủng hộ!"</p>
+      <span>- Lan Hương</span>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <p>© 2025 CatCorner. All rights reserved.</p>
+      <img src="https://source.unsplash.com/1200x200/?cats,cute" alt="footer background" class="footer-bg">
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
 </body>
 </html>

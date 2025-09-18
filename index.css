@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ff9800;
+  padding: 10px 20px;
+}
+
+.logo {
+  width: 60px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.banner {
+  background: url('https://source.unsplash.com/1600x600/?cat,cute') no-repeat center/cover;
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.banner button {
+  margin-top: 20px;
+  padding: 12px 25px;
+  font-size: 16px;
+  background: #ff5722;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.banner button:hover {
+  background: #e64a19;
+}
+
+/* About */
+.about {
+  padding: 40px;
+  text-align: center;
+}
+
+.slider {
+  position: relative;
+  width: 800px;
+  max-width: 100%;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+.slide {
+  width: 100%;
+  display: none;
+}
+
+.slide.active {
+  display: block;
+}
+
+/* Reviews */
+.reviews {
+  background: #f9f9f9;
+  padding: 40px;
+}
+
+.reviews h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.review-item {
+  background: white;
+  margin: 15px auto;
+  padding: 20px;
+  border-radius: 8px;
+  width: 60%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.footer-content {
+  padding: 20px;
+}
+
+.footer-bg {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 8px;
+}
